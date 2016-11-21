@@ -10,7 +10,9 @@ The following lines are an exctract from the part focused on this issue wich I c
 # (ch) Monitor Aliases
 
 alias monitor-l
+
 alias monitor-c        1920x1080
+
 alias monitor-r        1920x1200
 —
 
