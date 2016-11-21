@@ -8,9 +8,9 @@ I ended up here looking for a solution in order to keep ArchiCAD's floating pale
 The following lines are an exctract from the part focused on this issue wich I called project [m] just to give it a name.
 
 # (ch) Monitor Aliases
-#—
+—
 
-#alias monitor-l
+alias monitor-l
 alias monitor-c        1920x1080
 alias monitor-r        1920x1200
 
