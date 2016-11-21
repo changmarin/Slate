@@ -14,7 +14,7 @@ alias monitor-l
 alias monitor-c        1920x1080
 
 alias monitor-r        1920x1200
-—
+
 
 #ARCHICAD PALETTE DEFAULT LAYOUT ALIASES
 
@@ -29,15 +29,15 @@ alias renov           move   screenOriginX+(10+screenSizeX/5);screenOriginY+(225
 alias team            move   screenOriginX+(10+screenSizeX/5);screenOriginY+(346+20)*screenSizeY/1200 	288*screenSizeX/1920;364*screenSizeY/1200  ${monitor-r}
 
 alias mark            move   screenOriginX+288*screenSizeX/(1920*5);screenOriginY       		217*screenSizeX/1920;947*screenSizeY/1200  ${monitor-r}
-—
+
 
 #PROJECT [m] (DEFAULT LAYOUT)
 
 layout 2monitor_m 'ARCHICAD':IGNORE_FAIL,MAIN_FIRST,TITLE_ORDER=Favorites;'Trace & Reference';Renovation;Teamwork;'Mark-Up Tools';'Navigator - Project Map';'Navigator - View Map';'Navigator - Layout Book';'Navigator - Publisher Set' ${full-c} | ${faves} | ${trace} | ${renov} | ${team} | ${mark} | ${navig} | ${navig} | ${navig} | ${navig}
-—
+
 
 #(ch) Layout Bindings
-—
+
 
 bind f3:alt;esc    layout  2monitor_m #MODAL KEY ALT+ESC
 
